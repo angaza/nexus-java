@@ -1,0 +1,11 @@
+*.iml
+.idea/
+.gradle/
+local.properties
+dist
+build
+target
+*~
+*.swp
+*.class
+build.xml
