@@ -22,7 +22,7 @@ public class SmallMessage extends BaseSmallMessage {
     }
 
     private static int checkTypeCode(int typeCode) throws UnsupportedMessageTypeException {
-        if (typeCode < 0 || typeCode > 2) {
+        if (typeCode < 0 || typeCode > 2 || typeCode == 1) {
             throw new UnsupportedMessageTypeException("unsupported message type code");
         }
         return typeCode;

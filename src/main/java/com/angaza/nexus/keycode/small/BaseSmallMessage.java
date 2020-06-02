@@ -29,10 +29,11 @@ import com.angaza.nexus.keycode.util.BitUtils;
  * <p>
  * There are four types of small protocol messages, determined by the message
  * type code field:
- * Credit messages - message type codes 0, 1, 2
+ * Credit messages - message type codes 0, 2
  * Maintenance/Test messages - message type code 3
+ * Message type code 1 is reserved for future use
  * <p>
- * Messages with type codes 0, 1, 2 (ie, credit messages) may be applied
+ * Messages with type codes 0 and 2 (ie, credit messages) may be applied
  * exactly once to a given product over the lifetime of that product.  There
  * is no restriction on the number of times Maintenance and Test messages may
  * be applied.
