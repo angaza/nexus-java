@@ -1,11 +1,8 @@
-# Nexus Keycode: Java (Preview Release)
+# Nexus Keycode: Java (Beta)
 
-This package allows you to encode Nexus Keycodes.
+This package allows you to encode Nexus Keycodes. This is a beta release.
 
-This is a preview release. We anticipate producing a production-ready release
-by the end of Q1 2020.
-
-Learn more about about Angaza Nexus [here](https://angaza.github.io/nexus)!
+Learn more about about Angaza Nexus [here](https://angaza.github.io/nexus).
 
 ## Installation
 
